@@ -15,5 +15,5 @@ function cuidadoConElConsoleLog(nombre) {
   function finDeLaFuncion(nombre) {
     return nombre;
     console.log(nombre);
-    //Cuando se ejecuta el return, el resto de operaciones quedan sin realizar, por ello, sólo se mostraría el return en consola, y no el console.log
+    //Cuando se ejecuta el return, el resto de operaciones quedan sin ejecutar, por ello, sólo se mostraría el return en consola, y no el console.log
   }
